@@ -32,7 +32,7 @@ def netConnectionTestReader():
             #netConnection(sHost,description)
 
             # sets device equal to 
-            net_connect = ConnectHandler(device_type="cisco_xe",host= sHost,username="nettools",password="jrfoO6wPR3eGnoHC8Sh",)
+            net_connect = ConnectHandler(device_type="",host= sHost,username="",password="",)
             #output = net_connect.send_command("show ip arp")
 
             # configuration 
